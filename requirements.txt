@@ -1,0 +1,7 @@
+# New for Project 3 - Hugging Face fine-tuning stack.
+# torch/scikit-learn/matplotlib/streamlit already installed in the logdet2 venv from Project 2 - reuse it.
+transformers>=4.44,<5
+datasets>=2.20,<3
+accelerate>=0.33,<1
+evaluate>=0.4,<1
+requests>=2.31,<3
