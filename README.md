@@ -1,11 +1,9 @@
 # Security Alert Triage — Fine-Tuning DistilBERT on BGL Logs
 
-Phase 1, Project 3 of an AI engineer learning roadmap. Supervised sequel to
-[log-anomaly-detection](https://github.com/santoshmadiraju/log-anomaly-detection)
-(Project 2): that project trained a char-level transformer from scratch to
+Supervised sequel to [log-anomaly-detection](https://github.com/santoshmadiraju/log-anomaly-detection): that project trained a char-level transformer from scratch to
 score *unlabeled* HDFS logs by next-token surprise. This project fine-tunes a
 **pretrained** Hugging Face model (DistilBERT) on a **labeled** classification
-task instead — predicting whether a log line is a real alert or normal noise,
+task instead predicting whether a log line is a real alert or normal noise,
 framed as the kind of triage a SOC analyst does by hand.
 
 ## Results
